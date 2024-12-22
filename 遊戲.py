@@ -5,11 +5,8 @@ import os
 FPS=70 
 WIDTH=500
 HIGHT=600
-
-BROWN=(139,69,19)
 GREEN=(0,255,0)
 WHITE=(255,255,255)
-RED=(255,0,0)
 #遊戲初始化 及 創建視窗
 pygame.init()#初始化
 pygame.mixer.init()
@@ -126,7 +123,6 @@ class Rock0(pygame.sprite.Sprite):
         self.image.set_colorkey((0,0,0))        
         self.rect=self.image.get_rect()
         self.radius=self.rect.width*0.9/2
-        #pygame.draw.circle(self.image,RED,self.rect.center,self.radius)
         self.rect.x=random.randrange(0,WIDTH-self.rect.width)
         self.rect.y=random.randrange(-100,-40)
         self.speed=random.randrange(2,5)
