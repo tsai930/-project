@@ -35,7 +35,7 @@ def hitrock1():
 
 def cata():
     screen.blit(pygame.transform.scale(background_img,(500,600)),(0,0))
-    text(screen,"BEEP U",50,WIDTH/2,30)
+    text(screen,"Shooter",50,WIDTH/2,30)
     text(screen,"a go left,d go right,space shoot",25,WIDTH/2,HIGHT/2)
     text(screen,"press to stard",40,WIDTH/2,HIGHT/2-50)
     text(screen,"+5 point",20,WIDTH/3-35,HIGHT*2/3-30)
