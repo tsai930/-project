@@ -33,7 +33,7 @@ The project is organized as follows:
 pygame.init()
     all_splite  將物體放進同個群組
         def rockhit() 將被射到分形物家回群組，因被射擊後會被刪除
-    hits=pygame.sprite.groupcollide() 判定碰撞(同群組內物品)
+    hits=pygame.sprite.groupcollide() 判定碰撞
         for i in hits 判定射中飛行物並刪除
             hitrock()將飛行物加回群組
     screen.blit() 將畫面顯示
