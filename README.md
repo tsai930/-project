@@ -9,8 +9,8 @@
     要將輸入法改成英文，否則不會有反應
     a向左，d向右，空白鍵射擊
     碰到飛行物hp-1，hp=0結束
-    21、23、24、25、26行中pygame.image.load(os.path.join(資料夾位置，名稱.檔案形式)).convert()來加入圖片
 ### 3 可修改內容:
+    21、23、24、25、26行中pygame.image.load(os.path.join(資料夾位置，名稱.檔案形式)).convert()來改變圖片，圖片的檔案(or資料夾)必須與程式同資料夾
     改變目標飛行速度:
         在Rock0、Rock1中改
         self.speed=random.randrange(2,5)改變目標往下的速度
